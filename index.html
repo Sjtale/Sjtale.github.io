@@ -3,26 +3,68 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Personal Website</title>
+    <title>Sjtale's AI Journey</title>
     <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <header>
-        <h1>Welcome to My Personal Website</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
     </header>
+    
     <main>
-        <section id="introduction">
-            <h2>About Me</h2>
-            <p>Hi, I'm [Sjtale]. I'm passionate about [Artificial Intelligence].</p>
+        <section id="home">
+            <h1>Welcome to Sjtale's AI Journey</h1>
+            <p>Exploring the frontiers of Artificial Intelligence</p>
         </section>
-        <section id="interesting-content">
-            <h2>Interesting Content</h2>
-            <p>Here is something I find interesting:</p>
-            <p>[Your Interesting Content]</p>
+
+        <section id="about">
+            <h2>About Me</h2>
+            <img src="profile-picture.jpg" alt="Sjtale's profile picture" class="profile-pic">
+            <p>Hi, I'm Sjtale. I'm a passionate AI researcher and developer with a keen interest in machine learning, natural language processing, and computer vision. My goal is to push the boundaries of what's possible with AI and contribute to its ethical development.</p>
+        </section>
+
+        <section id="projects">
+            <h2>Featured Projects</h2>
+            <div class="project-grid">
+                <div class="project-card">
+                    <h3>AI-Powered Skyline Analysis</h3>
+                    <p>A project that uses computer vision to analyze and visualize urban skylines, helping in urban planning and architectural design.</p>
+                    <a href="#" class="button">Learn More</a>
+                </div>
+                <div class="project-card">
+                    <h3>Natural Language AI Assistant</h3>
+                    <p>An advanced AI assistant capable of understanding and generating human-like text, aiding in various tasks from writing to coding.</p>
+                    <a href="#" class="button">Learn More</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>Get in Touch</h2>
+            <form>
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <textarea placeholder="Your Message" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
         </section>
     </main>
+
     <footer>
-        <p>&copy; 2023 [Sjtale]. All rights reserved.</p>
+        <div class="social-links">
+            <a href="#" class="fab fa-twitter"></a>
+            <a href="#" class="fab fa-linkedin"></a>
+            <a href="#" class="fab fa-github"></a>
+        </div>
+        <p>&copy; 2024 Sjtale. All rights reserved.</p>
     </footer>
 </body>
 </html>
