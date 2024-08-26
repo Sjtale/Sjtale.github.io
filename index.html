@@ -27,7 +27,7 @@
 
         <section id="about">
             <h2>About Me</h2>
-            <img src="profile-picture.jpg" alt="Sjtale's profile picture" class="profile-pic">
+            <img src="images/y2.png" alt="Sjtale's profile picture" class="profile-pic">
             <p>Hi, I'm Sjtale. I'm a passionate AI researcher and developer with a keen interest in machine learning, natural language processing, and computer vision. My goal is to push the boundaries of what's possible with AI and contribute to its ethical development.</p>
         </section>
 
@@ -48,12 +48,22 @@
         </section>
 
         <section id="contact">
-            <h2>Get in Touch</h2>
+            <h2>Let's Connect</h2>
+            <p>Have a question or want to collaborate? We'd love to hear from you.</p>
             <form>
-                <input type="text" placeholder="Your Name" required>
-                <input type="email" placeholder="Your Email" required>
-                <textarea placeholder="Your Message" required></textarea>
-                <button type="submit">Send Message</button>
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" placeholder="Enter your name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" placeholder="Enter your email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" placeholder="Your message" required></textarea>
+                </div>
+                <button type="submit" class="button">Send</button>
             </form>
         </section>
     </main>
