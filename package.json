@@ -1,0 +1,17 @@
+{
+  "name": "sjtale.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "clsx": "^2.1.1",
+    "framer-motion": "^11.11.9",
+    "tailwind-merge": "^2.5.4"
+  }
+}
